@@ -1288,8 +1288,8 @@ $es-black: #000;
 
         &--2 {
           top: 32%;
-          left: 85%;
-          width: 50%;
+          left: 90%;
+          width: 36%;
           max-width: 270px;
 
           .es-formula__item--text,
@@ -1309,7 +1309,7 @@ $es-black: #000;
         &--3 {
           top: 77%;
           left: 26%;
-          width: 70%;
+          width: 50%;
           max-width: 400px;
 
           .es-formula__item--text,
@@ -1328,8 +1328,8 @@ $es-black: #000;
 
         &--4 {
           top: 85%;
-          left: 85%;
-          width: 50%;
+          left: 90%;
+          width: 36%;
           max-width: 250px;
 
           .es-formula__item--text,
@@ -1415,6 +1415,7 @@ $es-black: #000;
   @media screen and (min-width: 900px) {
     .es-kv{
       .es-kv__photoimg {
+        width: 100%;
         margin: 0;
       }
     }

@@ -52,7 +52,9 @@
   bottom: 0;
   left: 6px;
   margin: 0;
+  padding: 0;
   font-family: inherit;
+  font-weight: inherit;
   line-height: inherit;
   text-transform: uppercase;
   color: #000;
@@ -105,6 +107,7 @@
 #es-garnier.es-garnier .es-kv__ingredient--photo {
   margin: 0 auto;
   display: block;
+  max-width: 100%;
   max-width: 65%;
 }
 #es-garnier.es-garnier .es-kv__img {
@@ -430,7 +433,9 @@
   left: 86px;
 }
 #es-garnier.es-garnier .es-formula__img {
+  margin: 0 auto;
   display: block;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -551,7 +556,9 @@
 #es-garnier.es-garnier .es-slider__name {
   width: 100%;
   margin: 0;
+  padding: 0;
   font-family: inherit;
+  font-weight: inherit;
   line-height: inherit;
   padding: 20px 0;
   text-align: center;
@@ -1033,8 +1040,8 @@
   }
   #es-garnier.es-garnier .es-formula__item--2 {
     top: 32%;
-    left: 85%;
-    width: 50%;
+    left: 90%;
+    width: 36%;
     max-width: 270px;
   }
   #es-garnier.es-garnier .es-formula__item--2 .es-formula__item--text,
@@ -1051,7 +1058,7 @@
   #es-garnier.es-garnier .es-formula__item--3 {
     top: 77%;
     left: 26%;
-    width: 70%;
+    width: 50%;
     max-width: 400px;
   }
   #es-garnier.es-garnier .es-formula__item--3 .es-formula__item--text,
@@ -1067,8 +1074,8 @@
   }
   #es-garnier.es-garnier .es-formula__item--4 {
     top: 85%;
-    left: 85%;
-    width: 50%;
+    left: 90%;
+    width: 36%;
     max-width: 250px;
   }
   #es-garnier.es-garnier .es-formula__item--4 .es-formula__item--text,
@@ -1134,6 +1141,7 @@
 }
 @media screen and (min-width: 900px) {
   #es-garnier.es-garnier .es-kv .es-kv__photoimg {
+    width: 100%;
     margin: 0;
   }
   #es-garnier.es-garnier .es-slider .es-slider__content {
