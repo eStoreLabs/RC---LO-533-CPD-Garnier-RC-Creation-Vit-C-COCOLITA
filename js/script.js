@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+(() => {
   const images = document.querySelectorAll(".es-cross__circle");
   const infoDiv = document.getElementById("info");
   const link = document.getElementById("link");
@@ -45,4 +45,5 @@ document.addEventListener("DOMContentLoaded", () => {
   if (hideButton) {
     hideButton.addEventListener('click', toggleCollapse); // Nasłuchiwanie kliknięcia
   }
-});
+
+})();

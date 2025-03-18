@@ -327,7 +327,7 @@ $es-black: #000;
       font-weight: 600;
     }
 
-    .progress-bar {
+    .effectiveness-progress-bar {
       margin: 10px auto;
       margin-top: 25px;
       border-radius: 3px;
@@ -594,6 +594,8 @@ $es-black: #000;
     }
 
     &__hide {
+      font-size: 13px;
+      font-weight: 400;
       padding: 0 10px;
       color: $es-orange;
     }

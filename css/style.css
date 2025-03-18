@@ -52,9 +52,7 @@
   bottom: 0;
   left: 6px;
   margin: 0;
-  padding: 0;
   font-family: inherit;
-  font-weight: inherit;
   line-height: inherit;
   text-transform: uppercase;
   color: #000;
@@ -107,7 +105,6 @@
 #es-garnier.es-garnier .es-kv__ingredient--photo {
   margin: 0 auto;
   display: block;
-  max-width: 100%;
   max-width: 65%;
 }
 #es-garnier.es-garnier .es-kv__img {
@@ -264,7 +261,7 @@
   color: #e95817;
   font-weight: 600;
 }
-#es-garnier.es-garnier .es-benefits .progress-bar {
+#es-garnier.es-garnier .es-benefits .effectiveness-progress-bar {
   margin: 10px auto;
   margin-top: 25px;
   border-radius: 3px;
@@ -433,9 +430,7 @@
   left: 86px;
 }
 #es-garnier.es-garnier .es-formula__img {
-  margin: 0 auto;
   display: block;
-  max-width: 100%;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -480,6 +475,8 @@
   width: 100%;
 }
 #es-garnier.es-garnier .es-ingr__hide {
+  font-size: 13px;
+  font-weight: 400;
   padding: 0 10px;
   color: #e95817;
 }
@@ -554,9 +551,7 @@
 #es-garnier.es-garnier .es-slider__name {
   width: 100%;
   margin: 0;
-  padding: 0;
   font-family: inherit;
-  font-weight: inherit;
   line-height: inherit;
   padding: 20px 0;
   text-align: center;
